@@ -18,4 +18,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/Posts', PostComponent::class)->name('posts');  
+Route::get('/posts', PostComponent::class)->name('posts');
